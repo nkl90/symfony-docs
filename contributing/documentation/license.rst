@@ -1,58 +1,59 @@
 .. _symfony2-documentation-license:
 
-Symfony Documentation License
+Лицензия на документацию Symfony
 =============================
 
-The Symfony documentation is licensed under a Creative Commons
-Attribution-Share Alike 3.0 Unported License (`CC BY-SA 3.0`_).
+Документация Symfony распростроняется по лицензии Creative Commons
+Attribution-Share Alike 3.0 Unported (`CC BY-SA 3.0`_).
 
-**You are free:**
+**Вы можете свободно:**
 
-* to *Share* — to copy, distribute and transmit the work;
+* *Делиться (обмениваться)* — копировать и распространять материал на любом носителе и в любом формате;
 
-* to *Remix* — to adapt the work.
+* Адаптировать (создавать производные материалы) — делать ремиксы, видоизменять, и создавать новое, опираясь на этот
+  материал для любых целей, включая коммерческие.
 
-**Under the following conditions:**
+**При обязательном соблюдении следующих условий:**
 
-* *Attribution* — You must attribute the work in the manner specified by
-  the author or licensor (but not in any way that suggests that they
-  endorse you or your use of the work);
+* *С указанием авторства* — Вы должны обеспечить соответствующее указание авторства, предоставить ссылку на лицензию,
+  и обозначить изменения, если таковые были сделаны. Вы можете это делать любым разумным способом, но не таким, который
+  подразумевал бы, что лицензиар одобряет вас или ваш способ использования произведения;
 
-* *Share Alike* — If you alter, transform, or build upon this work, you
-  may distribute the resulting work only under the same or similar license
-  to this one.
+* *«ShareAlike» («На тех же условиях»)* —  Если вы перерабатываете, преобразовываете материал или берёте его за основу
+  для производного произведения, вы должны распространять переделанные вами части материала на условиях той же лицензии,
+  в соответствии с которой распространяется оригинал.
 
-**With the understanding that:**
+**При том понимании, что:**
 
-* *Waiver* — Any of the above conditions can be waived if you get
-  permission from the copyright holder;
+* *Отказ от прав* — Любое из вышеуказанных условий может быть отменено по разрешению владельца авторских прав;
 
-* *Public Domain* — Where the work or any of its elements is in the public
+* *Достояние общественности* — Where the work or any of its elements is in the public
   domain under applicable law, that status is in no way affected by the
   license;
 
-* *Other Rights* — In no way are any of the following rights affected by the
-  license:
+* *Достояние общественности* — Это работа или любые из её элементов являющиеся общественным достоянием в соотвествии с
+  законодательством, этот статус не может быть никоим образом изменен лицензией;
 
-  * Your fair dealing or fair use rights, or other applicable copyright exceptions
-    and limitations;
+* *Другие права* — Лицензия ни в коем случае не затрагивает ни одно из следующих прав:
 
-  * The author's moral rights;
+  * Ваше право на справедливую торговлю или справедливое использование или другие применимые исключения и ограничения
+  авторских прав;
 
-  * Rights other persons may have either in the work itself or in how the
-    work is used, such as publicity or privacy rights.
+  * Моральные права автора;
 
-* *Notice* — For any reuse or distribution, you must make clear to others
-  the license terms of this work. The best way to do this is with a link
-  to this web page.
+  * Права других лиц находящиеся в произведении либо использующих это произведение, такие как гласность или права на
+  неприкосновенность частной жизни
 
-This is a human-readable summary of the `Legal Code (the full license)`_.
+* *Уведомлять* — Для любого повторного использования или распространения вы должны разъяснить другим, условия лицензии
+  на эту работу. Лучший способ сделать это - сослаться на эту веб-страницу.
 
-Other Symfony Licenses
+Это изложенное понятным языком краткое объяснение (и оно не заменяет) `полного текста лицензии (the full license)`_.
+
+Другие лицензии Symfony
 ----------------------
 
-Check out the :doc:`license of the Symfony code </contributing/code/license>`
-and other `Symfony licenses and trademarks`_.
+Посмотреть :doc:`лицензию на код Symfony </contributing/code/license>`
+и другие `лицензии и торговые марки Symfony`_.
 
 .. _`CC BY-SA 3.0`: http://creativecommons.org/licenses/by-sa/3.0/
 .. _Legal Code (the full license): http://creativecommons.org/licenses/by-sa/3.0/legalcode
