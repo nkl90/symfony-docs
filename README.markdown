@@ -1,21 +1,11 @@
-Symfony Documentation
-=====================
+Документация Symfony
+====================
 
-This documentation is rendered online at https://symfony.com/doc/current/
+Эта документация визуализирована онлайн по адресу http://symfony-docs.nkl.guru
 
-Contributing
-------------
+Участие
+-------
 
->**Note**
->Unless you're documenting a feature that was introduced *after* Symfony 2.8
->(e.g. in Symfony 3.4), all pull requests must be based off of the **2.8** branch,
->**not** the master or older branches.
+Буду рад посильной помощи! Что бы получить больше информации о том, как принять участие в переводе документации для
+Symfony примите к сведению [эту информацию](http://symfony-docs.nkl.guru/contributing/documentation/overview.html)
 
-We love contributors! For more information on how you can contribute to the
-Symfony documentation, please read
-[Contributing to the Documentation](https://symfony.com/doc/current/contributing/documentation/overview.html)
-
-Platform.sh
------------
-
-Pull requests are automatically built by [Platform.sh](https://platform.sh).
