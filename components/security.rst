@@ -1,52 +1,49 @@
 .. index::
    single: Security
 
-The Security Component
+Компонент Безопасности
 ======================
 
-    The Security component provides a complete security system for your web
-    application. It ships with facilities for authenticating using HTTP basic
-    authentication, interactive form login or X.509 certificate login, but also
-    allows you to implement your own authentication strategies. Furthermore, the
-    component provides ways to authorize authenticated users based on their
-    roles, and it contains an advanced ACL system.
+    Компонент безопасности представляет полную систему безопасности для вашего веб-приложения.
+    Он поставляется с объектами для аутентификации с использованием базовой HTTP аутентификации, интерактивной формой
+    входа или входа с использованием стандарта открытых ключей X.509, а также позволяет реализовывать собственные
+    стратегии аутентификации. Более того, этот копмонент предоставляет решения для авторизации и аутентификации пользователей
+    на основе их ролей, а так же содержит расширенную ACL (Access Control List) систему разграничения прав на основе
+    списков контроля доступа.
 
-Installation
-------------
+Установка
+---------
 
 .. code-block:: terminal
 
     $ composer require symfony/security
 
-Alternatively, you can clone the `<https://github.com/symfony/security>`_ repository.
+В качестве альтернативы, вы можете клонировать репозиторий `<https://github.com/symfony/security>`_.
 
 .. include:: /components/require_autoload.rst.inc
 
-The Security component is divided into four smaller sub-components which can be
-used separately:
+Компонент безопасности разделен на четыре меньших подкомпонента, которые могут быть использованы по отдельности:
 
 ``symfony/security-core``
-    It provides all the common security features, from authentication to
-    authorization and from encoding passwords to loading users.
+    Он обеспечивает общие возможности безопасности, от аутентификации до авторизации, и от декодирования паролей до
+    загрузки пользователей.
 
 ``symfony/security-http``
-    It integrates the core sub-component with the HTTP protocol to handle HTTP
-    requests and responses.
+    Он объеденяет подкомпонент ядра с протоколом HTTP для обработки HTTP запросов и ответов.
 
 ``symfony/security-csrf``
-    It provides protection against `CSRF attacks`_.
+    Он обеспечивает защиту от `CSRF attacks`_.
 
 ``symfony/security-acl``
-    It provides a fine grained permissions mechanism based on Access Control Lists.
+    Он обеспечивает детальное управление правами доступа, основанного на списках контроля доступа (Access Control List).
 
 .. seealso::
 
-    This article explains how to use the Security features as an independent
-    component in any PHP application. Read the :doc:`/security` article to learn
-    about how to use it in Symfony applications.
+    Эта статья объясняет, как использовать возможности Компонента Безопасности, как независимый компонент в любом PHP
+    приложении. Читайте :doc:`/security` статью для понимания того, как его использовать в приложении Symfony.
 
-Learn More
-----------
+Изучите также
+-------------
 
 .. toctree::
     :maxdepth: 1

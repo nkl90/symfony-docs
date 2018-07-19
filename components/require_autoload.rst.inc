@@ -1,6 +1,5 @@
 .. note::
 
-    If you install this component outside of a Symfony application, you must
-    require the ``vendor/autoload.php`` file in your code to enable the class
-    autoloading mechanism provided by Composer. Read
-    :doc:`this article </components/using_components>` for more details.
+    Если вы устанавливаете этот компонент вне приложения Symfony, вам потребуется подключить файл ``vendor/autoload.php``,
+    что бы заработал механизм автозагрузки представляемый Composer'ом. Прочтите
+    :doc:`эту статью </components/using_components>` что бы узнать детали.
