@@ -1,8 +1,8 @@
 .. index::
-   single: Security; Restrict Security Firewalls to a Request
+   single: Security; Назначение брэндмауэров для запросов
 
-How to Restrict Firewalls to a Specific Request
-===============================================
+Как назначать брэндмауэр для специфических запросов
+===================================================
 
 When using the Security component, you can create firewalls that match certain request options.
 In most cases, matching against the URL is sufficient, but in special cases you can further

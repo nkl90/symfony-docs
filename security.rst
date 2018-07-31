@@ -5,7 +5,7 @@
 ============
 
 Система безопасности Symfony невероятно мощная, но можно запутаться с её установкой. В этой статье вы изучите, как
-настроить систему безопасности в своем приложение, начиная с конфигурации файервола и того, как вы загружаете
+настроить систему безопасности в своем приложение, начиная с конфигурации брэндмауэра и того, как вы загружаете
 пользователей, до запрета доступа и извлечения Объекта пользователя. В зависимости от ваших нужд, первоначальная
 установка может быть сложной. Но однажды сделав это, система безопасности Symfony будет очень гибкой и (надеемся)
 забавной в работе с ней.
@@ -29,8 +29,8 @@
 1) Установка
 ------------
 
-In applications using :doc:`Symfony Flex </setup/flex>`, run this command to
-install the security feature before using it:
+В приложениях использующих :doc:`Symfony Flex </setup/flex>`, запустите эту команд для устновки возможностей безопасности
+перед тем как использовать их:
 
 .. code-block:: terminal
 
@@ -41,11 +41,10 @@ install the security feature before using it:
 .. _initial-security-yml-setup-authentication:
 .. _initial-security-yaml-setup-authentication:
 
-2) Initial security.yaml Setup (Authentication)
------------------------------------------------
+2) Начальная настройка security.yaml (Аутентификация)
+-----------------------------------------------------
 
-The security system is configured in ``config/packages/security.yaml``. The
-default configuration looks like this:
+Система безопасности настраивается в ``config/packages/security.yaml``. Конфигурация по умолчанию выглядит примерно так:
 
 .. configuration-block::
 
@@ -107,15 +106,15 @@ default configuration looks like this:
             ),
         ));
 
-The ``firewalls`` key is the *heart* of your security configuration. The
-``dev`` firewall isn't important, it just makes sure that Symfony's development
-tools - which live under URLs like ``/_profiler`` and ``/_wdt`` aren't blocked
-by your security.
+Ключ ``firewalls`` это *сердце* конфигурации вашей системы безопасности. Не обращайте внимание на брэндмауэр с названием
+``dev`` он создан для того, что бы быть уверенным в том, что встроенные инструменты разработчкиа Symfony находящиеся по
+URL'ам ``/_profiler`` and ``/_wdt`` не будут блокироваться вашей системой безопасности.
 
-.. tip::
+.. Tip::
 
-    You can also match a request against other details of the request (e.g. host). For more
-    information and examples read :doc:`/security/firewall_restriction`.
+    Вы также можете сопоставлять запрос по другим деталям запроса (например по хосту). Для получения большей информации
+    и примеров реализации прочитайте статью  :doc:`/security/firewall_restriction`.
+
 
 All other URLs will be handled by the ``main`` firewall (no ``pattern``
 key means it matches *all* URLs). You can think of the firewall like your
