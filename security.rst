@@ -1,35 +1,33 @@
 .. index::
    single: Security
 
-Security
-========
+Безопасность
+============
 
-Symfony's security system is incredibly powerful, but it can also be confusing
-to set up. In this article you'll learn how to set up your application's security
-step-by-step, from configuring your firewall and how you load users, to denying
-access and fetching the User object. Depending on what you need, sometimes
-the initial setup can be tough. But once it's done, Symfony's security system
-is both flexible and (hopefully) fun to work with.
+Система безопасности Symfony невероятно мощная, но можно запутаться с её установкой. В этой статье вы изучите, как
+настроить систему безопасности в своем приложение, начиная с конфигурации файервола и того, как вы загружаете
+пользователей, до запрета доступа и извлечения Объекта пользователя. В зависимости от ваших нужд, первоначальная
+установка может быть сложной. Но однажды сделав это, система безопасности Symfony будет очень гибкой и (надеемся)
+забавной в работе с ней.
 
-Since there's a lot to talk about, this article is organized into a few big
-sections:
+Поскольку есть о чем рассказать, это статья разбита на несколько больших разделов:
 
-#. Installing security support;
+#. Установка компонента безопасности;
 
-#. Initial ``security.yaml`` setup (*authentication*);
+#. Начальная настройка ``security.yaml`` (*аутентификация*);
 
-#. Denying access to your app (*authorization*);
+#. Запрет доступа к вашему приложению (*авторизация*);
 
-#. Fetching the current User object.
+#. Извлечения Объекта текущего пользователя.
 
-These are followed by a number of small (but still captivating) sections,
-like :ref:`logging out <security-logging-out>` and
-:doc:`encoding user passwords </security/password_encoding>`.
+Затем следует рад небольших (но не менее увлекательных) секций,
+вроде :ref:`Разлогинивание <security-logging-out>` или
+:doc:`шифрование пользовательских паролей </security/password_encoding>`.
 
 .. _installation:
 
-1) Installation
----------------
+1) Установка
+------------
 
 In applications using :doc:`Symfony Flex </setup/flex>`, run this command to
 install the security feature before using it:
