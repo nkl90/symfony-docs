@@ -1,5 +1,5 @@
-Getting Started
----------------
+Быстрый старт
+--------
 
 .. toctree::
     :maxdepth: 1

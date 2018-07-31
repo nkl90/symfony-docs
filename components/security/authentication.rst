@@ -1,7 +1,7 @@
 .. index::
    single: Security, Authentication
 
-Authentication
+Аутентификация
 ==============
 
 When a request points to a secured area, and one of the listeners from the
